@@ -2,8 +2,8 @@ const Clarifai = require('clarifai');
 
 const clarifaiRequestOptions = (imageUrl) => {
   const PAT = process.env.API_KEY;
-  const USER_ID = API_USER;       
-  const APP_ID = API_APP_ID;
+  const USER_ID = process.env.API_USER;       
+  const APP_ID = process.env.API_APP_ID;
 
   // const MODEL_ID = 'face-detection';  
   const IMAGE_URL = imageUrl;
