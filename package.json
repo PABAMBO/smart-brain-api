@@ -1,6 +1,6 @@
 {
   "name": "smart-brain-api",
-  "homepage": "https://PABAMBO.github.io/smart-brain-api",
+  // "homepage": "https://PABAMBO.github.io/smart-brain-api",
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
